@@ -81,7 +81,8 @@
 			color: #151515 !important;
 		}
 
-		p,ul li {
+		p,
+		ul li {
 			text-align: left !important;
 		}
 
@@ -101,14 +102,20 @@
 			text-align: center;
 		}
 
-		.newsletter-bx h3{
+		.newsletter-bx h3 {
 			font-size: 20px;
 		}
 
-		.banner{
+		.skill h3,
+		h4 {
+			text-align: left;
+		}
+
+		.banner {
 			/* background: linear-gradient(90.21deg, #6E7271 5.91%, #fff 181.58%); */
-			background-image: linear-gradient(90deg, rgba(64,166,112,0.6055672268907564) 46%, rgba(9,121,50,0.3562675070028011) 100%), url('scr/static/media/hbg.jpg');
-			/* background-repeat: no-repeat; */
+			/* background-image: linear-gradient(90deg, rgba(64, 166, 112, 0.6055672268907564) 46%, rgba(9, 121, 50, 0.3562675070028011) 100%); url('scr/static/media/hbg.jpg'); */
+			background:linear-gradient(90.21deg, #000 5.91%, #084a0e 81.58%);
+			color:#fff;
 		}
 	</style>
 </head>
@@ -155,13 +162,15 @@
 			<div class="container_">
 				<div class="aligh-items-center row">
 					<!-- <div class="col-xl-7 col-md-6 col-12"> -->
-						<div>
-							<center><h1 style="font-size: 10vw; white-space: nowrap;"><span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject</h1></center>
-							<div class="animate__animated animate__fadeIn">
-								<div style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 20px;">
-								</div>
+					<div>
+						<center>
+							<h1 style="font-size: 10vw; color:#fff; white-space: nowrap;"><span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject</h1>
+						</center>
+						<div class="animate__animated animate__fadeIn">
+							<div style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 20px;">
 							</div>
 						</div>
+					</div>
 					<!-- </div> -->
 					<div class="col-xl-5 col-md-6 col-12">
 						<div>
@@ -222,7 +231,7 @@
 										<br>
 										<h3>Ruth Kasune Banda</h3>
 										<br>
-										<p><span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject is the result of a relentless self challenge of my social responsibilities that started in early 1995, just after my 23 rd &nbsp;birthday. That is a long time to sit on a vision that has such urgency. <span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject is indeed a labour of love, that has been running since January 2021. However, my vision is simple. My call to social action is urgent. My prayer is truly a sincere one: Let us work together, to ensure our youth have equitable access to quality education. Education in all its forms should never be only for those who can afford it, it should be for all who hunger for it. Please join me in my work and with God before us, let us educate the youth of our beloved Zambia!</p>
+										<p><span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject is the result of a relentless self challenge of my social responsibilities that started in early 1995, just after my 23rd &nbsp;birthday and it finally launched in January 2021. That is a long time to sit on a vision that has such urgency. <span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject is indeed a labour of love. However, my vision is simple. My call to social action is urgent. My prayer is truly a sincere one: Let us work together, to ensure our youth have equitable access to quality education. Education in all its forms should never be only for those who can afford it, it should be for all who hunger for it. Please join me in my work and with God before us, let us educate the youth of our beloved Zambia!</p>
 										<h3>The Inspiration</h3>
 										<br>
 										<img src="./scr/static/media/gd.jpg" alt="Header Img" style="display: block; margin-left: auto; margin-right: auto; border-radius: 60px;width: 100%; max-width:400px;height:auto">
@@ -247,17 +256,17 @@
 						<div class="skill-bx wow zoomIn">
 							<h3>Our Aims</h3>
 							<h4>We only have one&nbsp;Aim:</h4>
-							<ul style="list-style-type:none; ">
-								<li>To provide equitable access to quality education</li>
-							</ul>
+							<div style="list-style-type:none; ">
+								<p>To provide equitable access to quality education</p>
+							</div>
 							<h3>Our Objectives</h3>
-							<ul style="list-style-type:none; margin-top: 19px;">
-								<li>To provide funding for academic and vocational education</li>
-								<li>To emphasise that education is the bedrock of a hopeful future.</li>
-								<li>To emphasise that it takes a village to raise just one child.</li>
-								<li>To emphasise that equitable access to quality education is a basic human right of every child.</li>
-								<li>To emphasise that every young mind matters.</li>
-							</ul>
+							<div style="list-style-type:none; margin-top_: 19px;">
+								<p>To provide funding for academic and vocational education</p>
+								<p>To emphasise that education is the bedrock of a hopeful future.</p>
+								<p>To emphasise that it takes a whole village to raise just one child.</p>
+								<p>To emphasise that equitable access to quality education is a basic human right of every child.</p>
+								<p>To emphasise that every young mind matters.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -270,7 +279,7 @@
 					<div size="12" class="col-md-6">
 						<div style="padding: 10px 30px;backgroundcolor:pink!important; margin-right:20px" class="row col-md-12">
 							<div class="col-md-6" style=" backgroundcolor:red!important;color:#fff; font-family: Times, serif;display:auto; left:50;top:50; font-size:1.7em; font-weight:550; padding-top:100px; text-decoration:justify;">
-								Educating Our Youth, <br> 
+								Educating Our Youth, <br>
 								Advocating for Their Mental Health
 							</div>
 							<div class="col-md-6" style="display:auto; right:0!important; left:100%">
@@ -346,9 +355,9 @@
 						<div class="newsletter-bx wow slideInUp">
 							<div class="text-center">
 								<h2>The Reason I Am</h2>
-								<h4 style="text-align: left!important;">I say to the young people... <i> "When I help you make sense of your life, my life makes sense".</i> That is the reason I am.</h4>
+								<h4 style="text-align: left!important;">I say to the young people... <i> "When I help you make sense of your life, my life makes sense."</i> That is the reason I am.</h4>
 								<!-- <hr> -->
-								<h3>What is the reason you are?</h3>
+								<h3 style="text-align: left!important;">What is the reason you are?</h3>
 							</div>
 						</div>
 					</div>
@@ -356,10 +365,10 @@
 						<img style="width:200px; border-radius:20px" src="./scr/static/media/logo.ab1df93785b722e1db63.png" alt="Logo">
 					</div>
 					<div size="12" class="text-center text-sm-end col-sm-6 col-md-3">
-						<p>Copyright &copy; <?php echo date('Y') ?> <span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject  </p>
+						<p>Copyright &copy; <?php echo date('Y') ?> <span style="color: green;">T</span>he<span style="color: green;">K</span>asune<span style="color: green;">P</span>roject </p>
 					</div>
 					<div size="12" class="text-center text-sm-end col-sm-6 col-md-3">
-						<p><span style="">Designed by <a target="_blank" href="https://barelynx.com">Barelynx Technology Ltd.</a></span>  </p>
+						<p><span style="">Designed by <a target="_blank" href="https://barelynx.com">Barelynx Technology Ltd.</a></span> </p>
 					</div>
 				</div>
 			</div>
